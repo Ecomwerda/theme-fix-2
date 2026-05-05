@@ -108,6 +108,34 @@
             "overlay_opacity": 30
           }
         },
+        "collection_kKkTqU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "Blouses & Shirts",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_GGT4b8": {
+          "type": "collection",
+          "settings": {
+            "collection": "coats-jackets",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "collection_8kjaBc": {
           "type": "collection",
           "settings": {
@@ -153,6 +181,8 @@
       },
       "block_order": [
         "collection_NFrXEB",
+        "collection_kKkTqU",
+        "collection_GGT4b8",
         "collection_8kjaBc",
         "collection_AYhnCe",
         "collection_QG6ebm"
