@@ -1,1 +1,469 @@
-{"sections":{"slideshow_TJ8KBa":{"type":"slideshow","blocks":{"image_yYUE8X":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_5_2026_09_33_03_PM_64b04efa-8db0-4b3c-ab46-3c9453ac9a4d.png","mobile_image":"shopify:\/\/shop_images\/ChatGPT_Image_May_5_2026_09_36_44_PM_f0270ce9-8a76-4352-9fa8-2ddd22a18add.png","content_max_width":780,"mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-end-center sm:text-center","subheading":"","title":"","heading_tag":"h2","button_text":"","button_link":"","text_color":"#ffffff","button_background":"#ffffff","button_text_color":"#000000","overlay_color":"#000000","overlay_opacity":15,"background":"","background_gradient":""}}},"block_order":["image_yYUE8X"],"name":"Slideshow","settings":{"full_width":true,"allow_transparent_header":false,"image_size":"auto","controls_type":"dots","transition_type":"fade_with_text","autoplay":false,"cycle_speed":6,"background":"#000000","background_gradient":""}},"rich_text_EhEykJ":{"type":"rich-text","blocks":{"subheading_PLNKHg":{"type":"subheading","settings":{"text":"CLAIRE & RILEY · NEW YORK CITY"}},"heading_UWHMVw":{"type":"heading","settings":{"text":"A New Chapter","heading_tag":"h1","text_color":"#000000","gradient":""}},"richtext_QfCC7x":{"type":"richtext","settings":{"content":"<p>What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.<\/p><p>A place where women feel comfortable, confident, and completely themselves. That was always our vision. And it still is.<\/p><p>And now… because of you, we're growing. I'm moving Claire & Riley to a bigger home — a new space, with the same heart I pour into every single piece.<\/p><p>To celebrate this special moment, I'm offering exclusive moving sale savings of <strong>up to 70% off<\/strong> our most-loved styles. A chance to take a piece of our story with you, before I step into what's next.<\/p><p>I produce every collection in limited quantities — once they're gone, they won't return.<\/p><p>Thank you for being part of this journey. It means everything to me. 🤍<\/p><p><em>With love,<br\/>Claire — Claire & Riley, New York City<\/em><\/p>"}}},"block_order":["subheading_PLNKHg","heading_UWHMVw","richtext_QfCC7x"],"name":"Rich text","settings":{"full_width":true,"content_width":"medium","text_position":"center","background":"#ffffff","background_gradient":"","text_color":"#1a1a1a"}},"collection-list":{"type":"collection-list","blocks":{"collection_NFrXEB":{"type":"collection","settings":{"collection":"midi-dresses","subheading":"","title":"Midi Dresses","url":"shopify:\/\/collections\/midi-dresses","heading_tag":"h3","text_position":"place-self-end-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_8kjaBc":{"type":"collection","settings":{"collection":"shirts-tops","image":"shopify:\/\/shop_images\/spp_20250110111421_96dc6b4164d69a7f9dabe9bc7170bb57_595ed75a-db04-4f55-b7ef-a9c8eb1635e1_720x-Photoroom.jpg","subheading":"","title":"Shirts & Tops","url":"shopify:\/\/collections\/shirts-tops","heading_tag":"h3","text_position":"place-self-end-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_AYhnCe":{"type":"collection","settings":{"collection":"sets","image":"shopify:\/\/shop_images\/f88d64d6025a291a4319b06d33e540f4.jpg","subheading":"","title":"Sets","url":"shopify:\/\/collections\/sets","heading_tag":"h3","text_position":"place-self-end-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}},"collection_QG6ebm":{"type":"collection","settings":{"collection":"pants-skirts","image":"shopify:\/\/shop_images\/Untitled_design_2-207638_8e10668f-d589-4d7b-b726-31e70138c3d8.png","subheading":"","title":"","url":"shopify:\/\/collections\/pants-skirts","heading_tag":"h2","text_position":"place-self-center text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection_NFrXEB","collection_8kjaBc","collection_AYhnCe","collection_QG6ebm"],"settings":{"full_width":true,"stack_collections":false,"collections_per_row":3,"show_progress_bar":false,"subheading":"Shop before we move — limited quantities","title":"The Moving Sale Edit","content":"","link_url":"shopify:\/\/collections","link_text":"Browse all collections","background":"#f5f5f5","background_gradient":"","text_color":"#1a1a1a","heading_color":"#000000","heading_gradient":""}},"featured-collection":{"type":"featured-collection","settings":{"collection":"best-selling-dresses","products":[],"full_width":true,"stack_products":false,"show_progress_bar":false,"products_count":6,"products_per_row_mobile":"2","products_per_row_desktop":4,"subheading":"Once they're gone, they won't return","title":"Our Most-Loved Styles","content":"","link_url":"shopify:\/\/collections\/best-selling-dresses","link_text":"Shop all styles","background":"#ffffff","background_gradient":"","text_color":"#1a1a1a","heading_color":"#000000","heading_gradient":"","product_card_background":"#f5f5f5","product_card_text_color":"#1a1a1a"}},"image-with-text-overlay":{"type":"image-with-text-overlay","blocks":{"1664424230c4756b0e-1":{"type":"heading","settings":{"text":"","heading_tag":"h0"}},"1664424230c4756b0e-2":{"type":"richtext","settings":{"content":""}}},"block_order":["1664424230c4756b0e-1","1664424230c4756b0e-2"],"settings":{"full_width":true,"allow_transparent_header":false,"enable_parallax":false,"image_size":"auto","image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_05_39_01_PM.png","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"testimonials_warm":{"type":"testimonials-warm","blocks":{"testimonial_1":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_08_17_40_PM.png","stars":5,"quote":"Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.","author":"Linda M."}},"testimonial_2":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_08_17_46_PM.png","stars":5,"quote":"Arrived quickly and looked even better in person. So happy with my purchase.","author":"Barbara S."}},"testimonial_3":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_08_17_52_PM.png","stars":5,"quote":"Beautiful quality for the price. I get compliments every time I wear it.","author":"Carol T."}},"testimonial_4":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_08_17_33_PM.png","stars":5,"quote":"Great fit and lovely material. Took a few days longer than expected but worth the wait.","author":"Diane W."}},"testimonial_5":{"type":"testimonial","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_08_17_31_PM.png","stars":5,"quote":"I bought two pieces and love them both. Finally a brand that gets it right.","author":"Susan H."}}},"block_order":["testimonial_1","testimonial_2","testimonial_3","testimonial_4","testimonial_5"],"settings":{"subheading":"Real customers, real stories","title":"Loved by our customers","background":"#f5f5f5","card_background":"#ffffff","heading_color":"#000000","text_color":"#1a1a1a","star_color":"#000000"}},"media-grid":{"type":"media-grid","blocks":{"item-3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_07_41_42_PM.png","title":"","heading_tag":"h4","link_url":"shopify:\/\/pages\/contact-us","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"item-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_2_2026_07_46_55_PM.png","title":"","heading_tag":"h4","link_url":"shopify:\/\/pages\/rejoignez-la-femme-sereine","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}},"image_GiUtXd":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ChatGPT_Image_May_5_2026_01_00_40_PM.png","title":"","heading_tag":"h4","link_url":"shopify:\/\/pages\/about-us","link_text":"","mobile_text_position":"place-self-center text-center","desktop_column_span":2,"desktop_row_span":2,"desktop_text_position":"sm:place-self-center sm:text-center","background":"#000000","background_gradient":"","text_color":"#ffffff","text_gradient":"","button_background":"#000000","button_text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":0}}},"block_order":["item-3","item-1","image_GiUtXd"],"settings":{"full_width":true,"reduce_width":false,"desktop_row_height":240,"mobile_row_height":130,"background":"","background_gradient":""}},"faq":{"type":"faq","blocks":{"faq_shipping":{"type":"item","settings":{"title":"Do you offer free premium shipping?","content":"<p>We offer free USPS shipping on all orders across the United States. Your tracking number will be sent by email as soon as your order ships.<\/p>"}},"faq_returns":{"type":"item","settings":{"title":"What is your return policy?","content":"<p>We accept returns within 30 days of receiving your order. Items must be unworn, unwashed and in original condition with all tags attached. Contact us at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com<\/a> to start your return.<\/p>"}},"faq_size":{"type":"item","settings":{"title":"How do I find the right size?","content":"<p>Each product page includes a size guide to help you find the perfect fit. If you are between sizes we recommend sizing up. Still unsure? Reach out and we will help you personally.<\/p>"}},"faq_payment":{"type":"item","settings":{"title":"What payment methods do you accept?","content":"<p>We accept all major credit cards (Visa, Mastercard, American Express), Apple Pay, Google Pay and Shop Pay. All payments are processed through a secure SSL connection.<\/p>"}},"faq_cancel":{"type":"item","settings":{"title":"Can I change or cancel my order?","content":"<p>Please contact us within 24 hours of placing your order at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com<\/a>. Once the order has been processed we are unable to make changes.<\/p>"}},"faq_help":{"type":"item","settings":{"title":"Need more help?","content":"<p>You can reach us at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com<\/a>. We respond within 24 hours on business days. Available Monday through Friday 09:00 – 17:00 and Saturday through Sunday 10:00 – 17:00.<\/p>"}}},"block_order":["faq_shipping","faq_returns","faq_size","faq_payment","faq_cancel","faq_help"],"settings":{"full_width":true,"subheading":"We're here to help","title":"Frequently Asked Questions","content":"<p>Everything you need to know before you shop.<\/p>","team_avatar_width":160,"support_hours":"Mon – Fri  09:00 – 17:00    Sat – Sun  10:00 – 17:00","answer_time":"We respond within 24 hours","button_text":"Contact us","button_url":"shopify:\/\/pages\/contact","text_position":"center","background":"#000000","background_gradient":"","text_color":"#ffffff","heading_color":"#ffffff","heading_gradient":"","button_background":"#ffffff","button_text_color":"#000000","accordion_background":"#1a1a1a","accordion_text_color":"#ffffff"}},"17777357234da3b579":{"type":"_blocks","settings":{}}},"order":["slideshow_TJ8KBa","rich_text_EhEykJ","collection-list","featured-collection","image-with-text-overlay","testimonials_warm","media-grid","faq","17777357234da3b579"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_TJ8KBa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_yYUE8X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_May_5_2026_09_33_03_PM.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_May_5_2026_09_36_44_PM.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_yYUE8X"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#000000",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_EhEykJ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_PLNKHg": {
+          "type": "subheading",
+          "settings": {
+            "text": "CLAIRE & RILEY · NEW YORK CITY"
+          }
+        },
+        "heading_UWHMVw": {
+          "type": "heading",
+          "settings": {
+            "text": "A New Chapter",
+            "heading_tag": "h1",
+            "text_color": "#000000",
+            "gradient": ""
+          }
+        },
+        "richtext_QfCC7x": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.</p><p>A place where women feel comfortable, confident, and completely themselves. That was always our vision. And it still is.</p><p>And now… because of you, we're growing. I'm moving Claire & Riley to a bigger home — a new space, with the same heart I pour into every single piece.</p><p>To celebrate this special moment, I'm offering exclusive moving sale savings of <strong>up to 70% off</strong> our most-loved styles. A chance to take a piece of our story with you, before I step into what's next.</p><p>I produce every collection in limited quantities — once they're gone, they won't return.</p><p>Thank you for being part of this journey. It means everything to me. 🤍</p><p><em>With love,<br/>Claire — Claire & Riley, New York City</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PLNKHg",
+        "heading_UWHMVw",
+        "richtext_QfCC7x"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_NFrXEB": {
+          "type": "collection",
+          "settings": {
+            "collection": "midi-dresses",
+            "subheading": "",
+            "title": "Midi Dresses",
+            "url": "shopify://collections/midi-dresses",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8kjaBc": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts-tops",
+            "subheading": "",
+            "title": "Shirts & Tops",
+            "url": "shopify://collections/shirts-tops",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_AYhnCe": {
+          "type": "collection",
+          "settings": {
+            "collection": "sets",
+            "subheading": "",
+            "title": "Sets",
+            "url": "shopify://collections/sets",
+            "heading_tag": "h3",
+            "text_position": "place-self-end-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_QG6ebm": {
+          "type": "collection",
+          "settings": {
+            "collection": "pants-skirts",
+            "subheading": "",
+            "title": "",
+            "url": "shopify://collections/pants-skirts",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_NFrXEB",
+        "collection_8kjaBc",
+        "collection_AYhnCe",
+        "collection_QG6ebm"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "Shop before we move — limited quantities",
+        "title": "The Moving Sale Edit",
+        "content": "",
+        "link_url": "shopify://collections",
+        "link_text": "Browse all collections",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "#000000",
+        "heading_gradient": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "best-selling-dresses",
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "Once they're gone, they won't return",
+        "title": "Our Most-Loved Styles",
+        "content": "",
+        "link_url": "shopify://collections/best-selling-dresses",
+        "link_text": "Shop all styles",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "product_card_background": "#f5f5f5",
+        "product_card_text_color": "#1a1a1a"
+      }
+    },
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "1664424230c4756b0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h0"
+          }
+        },
+        "1664424230c4756b0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664424230c4756b0e-1",
+        "1664424230c4756b0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "testimonials_warm": {
+      "type": "testimonials-warm",
+      "blocks": {
+        "testimonial_1": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
+            "author": "Linda M."
+          }
+        },
+        "testimonial_2": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
+            "author": "Barbara S."
+          }
+        },
+        "testimonial_3": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "quote": "Beautiful quality for the price. I get compliments every time I wear it.",
+            "author": "Carol T."
+          }
+        },
+        "testimonial_4": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "quote": "Great fit and lovely material. Took a few days longer than expected but worth the wait.",
+            "author": "Diane W."
+          }
+        },
+        "testimonial_5": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "quote": "I bought two pieces and love them both. Finally a brand that gets it right.",
+            "author": "Susan H."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_1",
+        "testimonial_2",
+        "testimonial_3",
+        "testimonial_4",
+        "testimonial_5"
+      ],
+      "settings": {
+        "subheading": "Real customers, real stories",
+        "title": "Loved by our customers",
+        "background": "#f5f5f5",
+        "card_background": "#ffffff",
+        "heading_color": "#000000",
+        "text_color": "#1a1a1a",
+        "star_color": "#000000"
+      }
+    },
+    "media-grid": {
+      "type": "media-grid",
+      "blocks": {
+        "item-3": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify://pages/contact-us",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify://pages/rejoignez-la-femme-sereine",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GiUtXd": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify://pages/about-us",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item-3",
+        "item-1",
+        "image_GiUtXd"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 240,
+        "mobile_row_height": 130,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq_shipping": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer free premium shipping?",
+            "content": "<p>We offer free USPS shipping on all orders across the United States. Your tracking number will be sent by email as soon as your order ships.</p>"
+          }
+        },
+        "faq_returns": {
+          "type": "item",
+          "settings": {
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of receiving your order. Items must be unworn, unwashed and in original condition with all tags attached. Contact us at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com</a> to start your return.</p>"
+          }
+        },
+        "faq_size": {
+          "type": "item",
+          "settings": {
+            "title": "How do I find the right size?",
+            "content": "<p>Each product page includes a size guide to help you find the perfect fit. If you are between sizes we recommend sizing up. Still unsure? Reach out and we will help you personally.</p>"
+          }
+        },
+        "faq_payment": {
+          "type": "item",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "content": "<p>We accept all major credit cards (Visa, Mastercard, American Express), Apple Pay, Google Pay and Shop Pay. All payments are processed through a secure SSL connection.</p>"
+          }
+        },
+        "faq_cancel": {
+          "type": "item",
+          "settings": {
+            "title": "Can I change or cancel my order?",
+            "content": "<p>Please contact us within 24 hours of placing your order at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com</a>. Once the order has been processed we are unable to make changes.</p>"
+          }
+        },
+        "faq_help": {
+          "type": "item",
+          "settings": {
+            "title": "Need more help?",
+            "content": "<p>You can reach us at <a href=\"mailto:info@claireandriley.com\">info@claireandriley.com</a>. We respond within 24 hours on business days. Available Monday through Friday 09:00 – 17:00 and Saturday through Sunday 10:00 – 17:00.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_shipping",
+        "faq_returns",
+        "faq_size",
+        "faq_payment",
+        "faq_cancel",
+        "faq_help"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "We're here to help",
+        "title": "Frequently Asked Questions",
+        "content": "<p>Everything you need to know before you shop.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Mon – Fri  09:00 – 17:00    Sat – Sun  10:00 – 17:00",
+        "answer_time": "We respond within 24 hours",
+        "button_text": "Contact us",
+        "button_url": "shopify://pages/contact",
+        "text_position": "center",
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "accordion_background": "#1a1a1a",
+        "accordion_text_color": "#ffffff"
+      }
+    },
+    "17777357234da3b579": {
+      "type": "_blocks",
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow_TJ8KBa",
+    "rich_text_EhEykJ",
+    "collection-list",
+    "featured-collection",
+    "image-with-text-overlay",
+    "testimonials_warm",
+    "media-grid",
+    "faq",
+    "17777357234da3b579"
+  ]
+}
