@@ -299,7 +299,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "",
+            "title": "About Us",
             "heading_tag": "h4",
             "link_url": "shopify://pages/contact-us",
             "link_text": "",
@@ -320,7 +320,7 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "",
+            "title": "Join our team",
             "heading_tag": "h4",
             "link_url": "shopify://pages/rejoignez-la-femme-sereine",
             "link_text": "",
