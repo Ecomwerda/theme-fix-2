@@ -1,0 +1,72 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/Gemini_Generated_Image_yn2i3yn2i3yn2i3y.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_4_2026_04_32_55_PM_445a6012-c22d-4e7e-a373-3898afe39881.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collection_text": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_col": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>17 YEARS OF HAZEL &amp; JUNE – OUR RETIREMENT SALE</strong></p><p>After 17 years on the Wilmington waterfront, we’re closing our doors. Every piece I ever handpicked for you is now <strong>up to 70% off</strong> — going to the women who made this boutique what it is. Once it’s gone, it’s gone.</p><p><strong>EXTRA SAVINGS:</strong><br>10% extra off 2 items · 15% extra off 3 items · 20% extra off 4+<br><em>Applied automatically at checkout.</em></p><p><strong>— Hazel</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_col"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "#fdf6ed",
+        "background_gradient": "",
+        "text_color": "#3d2b1f"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "collection_text",
+    "main"
+  ]
+}
