@@ -16,8 +16,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "sm",
-        "image": "shopify://shop_images/Gemini_Generated_Image_yn2i3yn2i3yn2i3y.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_May_4_2026_04_32_55_PM_445a6012-c22d-4e7e-a373-3898afe39881.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -31,7 +29,7 @@
         "richtext_col": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>17 YEARS OF HAZEL &amp; JUNE – OUR RETIREMENT SALE</strong></p><p>After 17 years on the Wilmington waterfront, we’re closing our doors. Every piece I ever handpicked for you is now <strong>up to 70% off</strong> — going to the women who made this boutique what it is. Once it’s gone, it’s gone.</p><p><strong>EXTRA SAVINGS:</strong><br>10% extra off 2 items · 15% extra off 3 items · 20% extra off 4+<br><em>Applied automatically at checkout.</em></p><p><strong>— Hazel</strong></p>"
+            "content": "<p>WE'RE MOVING — OUR BIGGEST SALE EVER<br/>After years in the heart of New York City, Claire & Riley is moving to a bigger space. Every piece we ever handpicked for you is now up to 70% off — going to the people who made this boutique what it is. Once it's gone, it's gone.</p><p><strong>EXTRA SAVINGS:</strong><br/>10% extra off 2 items · 15% extra off 3 items · 20% extra off 4+ items<br/>Applied automatically at checkout.</p><p>— Claire & Riley, New York City </p><p></p>"
           }
         }
       },
