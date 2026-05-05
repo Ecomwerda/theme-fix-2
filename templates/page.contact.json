@@ -23,14 +23,14 @@
         "content": "<p>Have a question about an order, sizing, or just want to say hello? We’re here for you.</p><p><strong>Email:</strong> info@claireandriley.com</p><p>Monday – Friday: 09:00 – 17:00<br/>Saturday – Sunday: 10:00 – 17:00</p><p>We usually respond within 24 hours.</p>",
         "text_position": "start",
         "contact_form_size": "large",
-        "background": "#fdf6ed",
-        "background_gradient": "linear-gradient(180deg, #f0e2cc 0%, #fdf6ed 100%)",
-        "text_color": "#3d2b1f",
-        "heading_color": "#52302a",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "#1a1a1a",
         "heading_gradient": "",
         "contact_background": "#ffffff",
-        "contact_text_color": "#3d2b1f",
-        "button_background": "#52302a",
+        "contact_text_color": "#1a1a1a",
+        "button_background": "#1a1a1a",
         "button_text_color": "#ffffff"
       }
     }
