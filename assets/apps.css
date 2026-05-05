@@ -12,11 +12,7 @@
 }
 
 /* Logo */
-.upcart-public-header img,
-.upcart-public-header [class*="logo"] img,
-.upcart-public-header [class*="logo"],
-[class*="upcart"] [class*="logo"] img,
-[class*="upcart"] [class*="header"] img {
+.upcart-public-header__logo {
   height: 120px !important;
   width: auto !important;
   max-height: none !important;
