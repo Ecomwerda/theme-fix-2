@@ -249,6 +249,7 @@
         "testimonial_2": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/cb6df81e-fac2-4e0a-828f-59458621d85d.png",
             "stars": 5,
             "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
             "author": "Barbara S."
