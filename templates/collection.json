@@ -42,9 +42,9 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#fdf6ed",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#3d2b1f"
+        "text_color": "#1a1a1a"
       }
     },
     "main": {
