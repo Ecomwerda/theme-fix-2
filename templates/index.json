@@ -240,6 +240,7 @@
         "testimonial_1": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_aep436aep436aep4.png",
             "stars": 5,
             "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
             "author": "Linda M."
