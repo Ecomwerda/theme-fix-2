@@ -94,38 +94,10 @@
     "collection-list": {
       "type": "collection-list",
       "blocks": {
-        "collection_NFrXEB": {
+        "collection_krBzgG": {
           "type": "collection",
           "settings": {
-            "collection": "blouses-shirts",
-            "subheading": "",
-            "title": "Blouses & Shirts",
-            "url": "shopify://collections/blouses-shirts",
-            "heading_tag": "h3",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_kKkTqU": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "Blouses & Shirts",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_GGT4b8": {
-          "type": "collection",
-          "settings": {
-            "collection": "coats-jackets",
+            "collection": "dresses",
             "subheading": "",
             "title": "",
             "url": "",
@@ -136,41 +108,41 @@
             "overlay_opacity": 30
           }
         },
-        "collection_8kjaBc": {
+        "collection_LgtVdz": {
           "type": "collection",
           "settings": {
-            "collection": "shirts-tops",
+            "collection": "pants",
             "subheading": "",
-            "title": "Shirts & Tops",
-            "url": "shopify://collections/shirts-tops",
-            "heading_tag": "h3",
-            "text_position": "place-self-end-center text-center",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
         },
-        "collection_AYhnCe": {
+        "collection_XDmLM7": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops-t-shirts",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_RURRVG": {
           "type": "collection",
           "settings": {
             "collection": "sets",
             "subheading": "",
-            "title": "Sets",
-            "url": "shopify://collections/sets",
-            "heading_tag": "h3",
-            "text_position": "place-self-end-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_QG6ebm": {
-          "type": "collection",
-          "settings": {
-            "collection": "pants-skirts",
-            "subheading": "",
             "title": "",
-            "url": "shopify://collections/pants-skirts",
+            "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
             "text_color": "#ffffff",
@@ -180,12 +152,10 @@
         }
       },
       "block_order": [
-        "collection_NFrXEB",
-        "collection_kKkTqU",
-        "collection_GGT4b8",
-        "collection_8kjaBc",
-        "collection_AYhnCe",
-        "collection_QG6ebm"
+        "collection_krBzgG",
+        "collection_LgtVdz",
+        "collection_XDmLM7",
+        "collection_RURRVG"
       ],
       "settings": {
         "full_width": true,
