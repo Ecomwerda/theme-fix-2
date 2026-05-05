@@ -1396,7 +1396,7 @@ scroll-carousel {
   width: max-content;
   background: rgb(var(--badge-background));
   color: rgb(var(--badge-color));
-  border-radius: var(--rounded-button);
+  border-radius: 0;
   font-size: 9px;
   font-weight: bold;
   display: flex;
