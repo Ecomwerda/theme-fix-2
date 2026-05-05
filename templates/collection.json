@@ -31,7 +31,7 @@
         "richtext_col": {
           "type": "richtext",
           "settings": {
-            "content": "<p>WE'RE MOVING — OUR BIGGEST SALE EVER<br/>After years in the heart of New York City, Claire & Riley is moving to a bigger space. Every piece we ever handpicked for you is now up to 70% off — going to the people who made this boutique what it is. Once it's gone, it's gone.</p><p><strong>EXTRA SAVINGS:</strong><br/>10% extra off 2 items · 15% extra off 3 items · 20% extra off 4+ items<br/>Applied automatically at checkout.</p><p>— Claire & Riley, New York City </p><p></p>"
+            "content": "<p>WE'RE MOVING — OUR BIGGEST SALE EVER<br/>After years in the heart of New York City, Claire & Riley is moving to a bigger space. Every piece we ever handpicked for you is now up to 70% off — going to the people who made this boutique what it is. Once it's gone, it's gone.</p><p><strong>EXTRA SAVINGS:</strong><br/>10% extra off 2 items <br/> 15% extra off 3 items <br/>20% extra off 4+ items</p><p><br/>Applied automatically at checkout.</p><p>— Claire & Riley, New York City </p><p></p>"
           }
         }
       },
