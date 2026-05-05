@@ -1,0 +1,274 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+IMAGE WITH STORY TEXT
+----------------------------------------------------------------------------------------------------------------------
+Split layout: image + heading/paragraphs. Mobile: stacked. Desktop: side by side.
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    background: {{ section.settings.background_color }};
+  }
+
+  .story-split {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .story-split__image-col {
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 24px 24px 0;
+  }
+
+  .story-split__image-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+  }
+
+  .story-split__text-col {
+    padding: 48px 28px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .story-split__heading {
+    font-family: var(--font-heading-family);
+    font-size: clamp(28px, 7vw, 52px);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 1.15;
+    color: {{ section.settings.heading_color }};
+    margin: 0 0 28px;
+  }
+
+  .story-split__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .story-split__paragraph {
+    font-family: var(--font-body-family);
+    font-size: 17px;
+    line-height: 1.7;
+    color: {{ section.settings.text_color }};
+    margin: 0;
+  }
+
+  .story-split__cta {
+    margin-top: 36px;
+  }
+
+  .story-split__cta a {
+    display: inline-block;
+    font-family: var(--font-body-family);
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: {{ section.settings.heading_color }};
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 3px;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .story-split__cta a:hover {
+    opacity: 0.65;
+  }
+
+  @media screen and (min-width: 750px) {
+    .story-split {
+      flex-direction: {% if section.settings.image_position == 'right' %}row-reverse{% else %}row{% endif %};
+      align-items: stretch;
+      min-height: {{ section.settings.min_height }}px;
+    }
+
+    .story-split__image-col {
+      width: {{ section.settings.image_width }}%;
+      min-height: 480px;
+      padding: 0;
+    }
+
+    .story-split__image-col img {
+      border-radius: 0;
+    }
+
+    .story-split__text-col {
+      flex: 1;
+      padding: 64px 72px 64px {% if section.settings.image_position == 'right' %}72px{% else %}64px{% endif %};
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+    .story-split__text-col {
+      padding: 80px 96px;
+    }
+  }
+</style>
+
+<div class="story-split">
+  {%- if section.settings.image != blank -%}
+    <div class="story-split__image-col">
+      {{- section.settings.image | image_url: width: 1200 | image_tag:
+        loading: 'lazy',
+        widths: '600, 800, 1000, 1200',
+        sizes: '(min-width: 750px) 50vw, 100vw'
+      -}}
+    </div>
+  {%- endif -%}
+
+  <div class="story-split__text-col">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="story-split__heading">{{ section.settings.heading }}</h2>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="story-split__body">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'paragraph' -%}
+            <p class="story-split__paragraph" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</p>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.button_label != blank and section.settings.button_url != blank -%}
+      <div class="story-split__cta">
+        <a href="{{ section.settings.button_url }}">{{ section.settings.button_label }}</a>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image with story text",
+  "class": "shopify-section--image-with-story-text",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#fdf6ed"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#52302a"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#3d2b1f"
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position (desktop)",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "min": 30,
+      "max": 65,
+      "step": 5,
+      "unit": "%",
+      "label": "Image width (desktop)",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "min_height",
+      "min": 400,
+      "max": 900,
+      "step": 50,
+      "unit": "px",
+      "label": "Minimum height (desktop)",
+      "default": 600
+    },
+    {
+      "type": "header",
+      "content": "Text"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Some dreams start with a mother, a daughter, and a crazy idea."
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "paragraph",
+      "name": "Paragraph",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Add your story here."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with story text",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "settings": {
+            "text": "When we opened Hazel & June, we had one dream — to create a little corner of the world where every woman felt truly seen and completely at home."
+          }
+        },
+        {
+          "type": "paragraph",
+          "settings": {
+            "text": "Because of you, that dream grew bigger than we ever imagined."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

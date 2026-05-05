@@ -1,0 +1,320 @@
+{%- render 'section-spacing-collapsing' -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --testimonial-card-bg: {{ section.settings.card_background }};
+    --testimonial-heading-color: {{ section.settings.heading_color }};
+    --testimonial-text-color: {{ section.settings.text_color }};
+    --testimonial-star-color: {{ section.settings.star_color }};
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials {
+    background: {{ section.settings.background }};
+    padding: 48px 5vw;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__header {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__eyebrow {
+    display: block;
+    font-family: var(--font-body-family);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--testimonial-heading-color);
+    opacity: 0.65;
+    margin-bottom: 14px;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__title {
+    font-family: var(--font-heading-family);
+    font-size: clamp(28px, 3.5vw, 48px);
+    font-weight: 400;
+    color: var(--testimonial-heading-color);
+    margin: 0 0 20px;
+    line-height: 1.2;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__divider::before,
+  #shopify-section-{{ section.id }} .warm-testimonials__divider::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: var(--testimonial-heading-color);
+    opacity: 0.3;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__divider-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--testimonial-heading-color);
+    opacity: 0.4;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__track {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 8px;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__card {
+    flex: 0 0 calc(16.666% - 21px);
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__track::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media screen and (max-width: 1199px) {
+    #shopify-section-{{ section.id }} .warm-testimonials__card {
+      flex: 0 0 calc(25% - 18px);
+    }
+  }
+
+  @media screen and (max-width: 799px) {
+    #shopify-section-{{ section.id }} .warm-testimonials__card {
+      flex: 0 0 calc(50% - 8px);
+    }
+    #shopify-section-{{ section.id }} .warm-testimonials {
+      padding: 36px 5vw;
+    }
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__card {
+    scroll-snap-align: start;
+    background: var(--testimonial-card-bg);
+    border-radius: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__card:hover {
+    transform: translateY(-3px);
+    box-shadow: none;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__image-wrap {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__body {
+    padding: 16px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__stars {
+    display: flex;
+    gap: 3px;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__star {
+    width: 16px;
+    height: 16px;
+    fill: var(--testimonial-star-color);
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__quote {
+    font-family: var(--font-heading-family);
+    font-size: clamp(13px, 1.1vw, 15px);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.55;
+    color: var(--testimonial-text-color);
+    margin: 0;
+    flex: 1;
+  }
+
+  #shopify-section-{{ section.id }} .warm-testimonials__author {
+    font-family: var(--font-body-family);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--testimonial-text-color);
+    opacity: 0.6;
+    margin: 0;
+    padding-top: 8px;
+    border-top: 1px solid rgba(61, 43, 31, 0.12);
+  }
+</style>
+
+<div class="warm-testimonials">
+  {%- if section.settings.title != blank or section.settings.subheading != blank -%}
+    <div class="warm-testimonials__header">
+      {%- if section.settings.subheading != blank -%}
+        <span class="warm-testimonials__eyebrow">{{ section.settings.subheading }}</span>
+      {%- endif -%}
+      {%- if section.settings.title != blank -%}
+        <h2 class="warm-testimonials__title">{{ section.settings.title }}</h2>
+      {%- endif -%}
+      <div class="warm-testimonials__divider">
+        <span class="warm-testimonials__divider-icon"></span>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="warm-testimonials__track">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'testimonial' -%}
+        <div class="warm-testimonials__card" {{ block.shopify_attributes }}>
+          {%- if block.settings.image != blank -%}
+            <div class="warm-testimonials__image-wrap">
+              {{- block.settings.image | image_url: width: 800 | image_tag: loading: 'lazy', widths: '400,600,800', sizes: '(max-width: 799px) 80vw, 25vw' -}}
+            </div>
+          {%- endif -%}
+
+          <div class="warm-testimonials__body">
+            <div class="warm-testimonials__stars">
+              {%- for i in (1..block.settings.stars) -%}
+                <svg class="warm-testimonials__star" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 1l2.39 4.84 5.34.78-3.86 3.76.91 5.32L10 13.27l-4.78 2.51.91-5.32L2.27 6.62l5.34-.78z"/>
+                </svg>
+              {%- endfor -%}
+            </div>
+
+            {%- if block.settings.quote != blank -%}
+              <p class="warm-testimonials__quote">"{{ block.settings.quote }}"</p>
+            {%- endif -%}
+
+            {%- if block.settings.author != blank -%}
+              <p class="warm-testimonials__author">— {{ block.settings.author }}</p>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Testimonials – Warm",
+  "class": "shopify-section--testimonials-warm",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Eyebrow",
+      "default": "Real customers, real stories"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Loved by our customers"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color_background",
+      "id": "background",
+      "label": "Section background",
+      "default": "linear-gradient(180deg, #fdf6ed 0%, #ecdfc8 100%)"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#faf4ec"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#5c3d2e"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#3d2b1f"
+    },
+    {
+      "type": "color",
+      "id": "star_color",
+      "label": "Star color",
+      "default": "#c9853a"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Photo"
+        },
+        {
+          "type": "range",
+          "id": "stars",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "label": "Stars",
+          "default": 5
+        },
+        {
+          "type": "textarea",
+          "id": "quote",
+          "label": "Quote"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials – Warm",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}

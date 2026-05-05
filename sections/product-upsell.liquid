@@ -1,0 +1,286 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT UPSELL
+----------------------------------------------------------------------------------------------------------------------
+Pulls from all products in the store. JS randomly picks N on every page load.
+No collection config needed.
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    background: {{ section.settings.background_color }};
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+    border-top: 1.5px solid {{ section.settings.border_color }};
+  }
+
+  .upsell-wrap {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .upsell-wrap { padding: 0 16px; }
+  }
+
+  #shopify-section-{{ section.id }} .upsell-heading {
+    font-family: var(--font-heading-family);
+    font-size: clamp(20px, 3vw, 30px);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000 !important;
+    margin: 0 0 16px;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+
+  #shopify-section-{{ section.id }} .upsell-subheading {
+    font-family: var(--font-body-family);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #000000;
+    border: none;
+    border-radius: 0;
+    color: #ffffff !important;
+    padding: 10px 18px;
+    margin: 0 0 24px;
+    display: block;
+    text-align: {{ section.settings.heading_alignment }};
+  }
+
+  .upsell-scroller {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 8px;
+    scrollbar-width: none;
+  }
+  .upsell-scroller::-webkit-scrollbar { display: none; }
+
+  .upsell-card {
+    display: none;
+    flex-direction: column;
+    text-decoration: none;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    width: 180px;
+  }
+  .upsell-card.is-visible { display: flex; }
+
+  @media screen and (min-width: 750px) {
+    .upsell-card { width: 210px; }
+  }
+
+  .upsell-card__image-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    aspect-ratio: 3 / 4;
+    background: #f0f0f0;
+    margin-bottom: 12px;
+    flex-shrink: 0;
+  }
+  .upsell-card__image-wrap img {
+    width: 100%; height: 100%;
+    object-fit: cover; display: block;
+    transition: transform 0.4s ease;
+  }
+  .upsell-card:hover .upsell-card__image-wrap img { transform: scale(1.04); }
+
+  .upsell-card__badge-wrap {
+    position: absolute;
+    top: 8px; left: 8px;
+  }
+
+  .upsell-card__title {
+    font-family: var(--font-body-family);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgb(var(--text-color));
+    margin: 0 0 5px;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .upsell-card__prices {
+    display: flex; align-items: center;
+    gap: 6px; flex-wrap: wrap;
+  }
+  .upsell-card__price--sale {
+    font-family: var(--font-body-family);
+    font-size: 13px; font-weight: 600;
+    color: rgb(var(--on-sale-text));
+  }
+  .upsell-card__price--compare {
+    font-family: var(--font-body-family);
+    font-size: 12px;
+    color: rgb(var(--text-color) / .55);
+    text-decoration: line-through;
+  }
+  .upsell-card__price--regular {
+    font-family: var(--font-body-family);
+    font-size: 13px;
+    color: rgb(var(--text-color) / .75);
+  }
+</style>
+
+<div class="upsell-wrap">
+  {%- if section.settings.heading != blank -%}
+    <h2 class="upsell-heading">{{ section.settings.heading }}</h2>
+    <p class="upsell-subheading">Buy 2 get 10% · Buy 3 get 15% · Buy 4 get 20% — automatically applied at checkout</p>
+  {%- endif -%}
+
+  <div class="upsell-scroller" id="upsell-grid-{{ section.id }}">
+    {%- for product in collections.all.products limit: 50 -%}
+      {%- assign on_sale = false -%}
+      {%- if product.compare_at_price > product.price -%}
+        {%- assign on_sale = true -%}
+        {%- assign savings = product.compare_at_price | minus: product.price -%}
+        {%- assign discount_pct = savings | times: 100 | divided_by: product.compare_at_price -%}
+      {%- endif -%}
+
+      <a href="{{ product.url }}" class="upsell-card" data-upsell-card>
+        <div class="upsell-card__image-wrap">
+          {%- if product.featured_image != blank -%}
+            {{- product.featured_image | image_url: width: 500 | image_tag:
+              loading: 'lazy',
+              widths: '200, 300, 500',
+              sizes: '210px',
+              alt: product.title
+            -}}
+          {%- else -%}
+            {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+          {%- if on_sale -%}
+            <div class="upsell-card__badge-wrap">
+              <span class="badge badge--on-sale">-{{ discount_pct }}%</span>
+            </div>
+          {%- endif -%}
+        </div>
+        <p class="upsell-card__title">{{ product.title }}</p>
+        <div class="upsell-card__prices">
+          {%- if on_sale -%}
+            <span class="upsell-card__price--sale">{{ product.price | money }}</span>
+            <span class="upsell-card__price--compare">{{ product.compare_at_price | money }}</span>
+          {%- else -%}
+            <span class="upsell-card__price--regular">{{ product.price | money }}</span>
+          {%- endif -%}
+        </div>
+      </a>
+    {%- endfor -%}
+  </div>
+</div>
+
+<script>
+  (function() {
+    var grid = document.getElementById('upsell-grid-{{ section.id }}');
+    if (!grid) return;
+
+    var cards = Array.from(grid.querySelectorAll('[data-upsell-card]'));
+    var count = {{ section.settings.products_to_show }};
+
+    // Fisher-Yates shuffle across all products
+    for (var i = cards.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = cards[i]; cards[i] = cards[j]; cards[j] = tmp;
+    }
+
+    cards.forEach(function(card, idx) {
+      grid.appendChild(card);
+      if (idx < count) card.classList.add('is-visible');
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Product upsell",
+  "class": "shopify-section--product-upsell",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "You'll love these"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "label": "Heading alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 4,
+      "max": 20,
+      "step": 1,
+      "label": "Products to show",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#fdf6ed"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Top border",
+      "default": "#e8ddd0"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#52302a"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 20,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 20,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 64
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product upsell"
+    }
+  ]
+}
+{% endschema %}

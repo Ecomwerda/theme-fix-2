@@ -1,0 +1,194 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+VOLUME DISCOUNT BANNER
+----------------------------------------------------------------------------------------------------------------------
+Three-column discount tier bar. Designed for use at the top of the product page.
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    border-top: 1.5px solid {{ section.settings.border_color }};
+    border-bottom: 1.5px solid {{ section.settings.border_color }};
+    background: {{ section.settings.background_color }};
+  }
+
+  .vdb-inner {
+    display: flex;
+    align-items: stretch;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .vdb-tier {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 16px;
+    text-align: center;
+    position: relative;
+  }
+
+  .vdb-tier + .vdb-tier::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    height: 60%;
+    width: 1px;
+    background: {{ section.settings.border_color }};
+  }
+
+  .vdb-icon {
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .vdb-icon svg {
+    width: 28px;
+    height: 28px;
+    fill: {{ section.settings.icon_color }};
+  }
+
+  .vdb-label {
+    font-family: var(--font-body-family);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: {{ section.settings.text_color }};
+    margin: 0 0 2px;
+    font-weight: 500;
+  }
+
+  .vdb-value {
+    font-family: var(--font-heading-family);
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: {{ section.settings.text_color }};
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  @media screen and (max-width: 749px) {
+    .vdb-label {
+      font-size: 10px;
+    }
+    .vdb-tier {
+      padding: 16px 8px;
+    }
+    .vdb-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+</style>
+
+<div class="vdb-inner">
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'tier' -%}
+      <div class="vdb-tier" {{ block.shopify_attributes }}>
+        <span class="vdb-icon">
+          <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4 C20 4 12 10 10 18 C8 26 14 34 20 36 C26 34 32 26 30 18 C28 10 20 4 20 4Z" opacity="0.15"/>
+            <path d="M20 6 C17 11 14 14 14 19 C14 24 16.5 28 20 30 C23.5 28 26 24 26 19 C26 14 23 11 20 6Z" opacity="0.3"/>
+            <path d="M20 8 C18.5 12 17 15 17 19 C17 23 18.2 26.5 20 29 C21.8 26.5 23 23 23 19 C23 15 21.5 12 20 8Z"/>
+            <path d="M15 14 C17 16 18.5 18 20 20" stroke-width="0.8" stroke="currentColor" fill="none" opacity="0.6"/>
+            <path d="M25 14 C23 16 21.5 18 20 20" stroke-width="0.8" stroke="currentColor" fill="none" opacity="0.6"/>
+            <path d="M12 20 C14.5 20 17 20.5 20 22" stroke-width="0.8" stroke="currentColor" fill="none" opacity="0.5"/>
+            <path d="M28 20 C25.5 20 23 20.5 20 22" stroke-width="0.8" stroke="currentColor" fill="none" opacity="0.5"/>
+          </svg>
+        </span>
+        {%- if block.settings.label != blank -%}
+          <p class="vdb-label">{{ block.settings.label }}</p>
+        {%- endif -%}
+        {%- if block.settings.value != blank -%}
+          <p class="vdb-value">{{ block.settings.value }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Volume discount banner",
+  "class": "shopify-section--volume-discount-banner",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#fdf6ed"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border & divider color",
+      "default": "#c9a882"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#c9a882"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#3d2b1f"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tier",
+      "name": "Discount tier",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label (e.g. BUY 2)",
+          "default": "BUY 2"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value (e.g. 10% OFF)",
+          "default": "10% OFF"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Volume discount banner",
+      "blocks": [
+        {
+          "type": "tier",
+          "settings": {
+            "label": "BUY 2",
+            "value": "10% OFF"
+          }
+        },
+        {
+          "type": "tier",
+          "settings": {
+            "label": "BUY 3",
+            "value": "15% OFF"
+          }
+        },
+        {
+          "type": "tier",
+          "settings": {
+            "label": "BUY 4",
+            "value": "20% OFF"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
