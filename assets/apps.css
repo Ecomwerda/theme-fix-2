@@ -14,11 +14,13 @@
 /* Logo */
 .upcart-public-header img,
 .upcart-public-header [class*="logo"] img,
-.upcart-public-header [class*="logo"] {
+.upcart-public-header [class*="logo"],
+[class*="upcart"] [class*="logo"] img,
+[class*="upcart"] [class*="header"] img {
+  height: 120px !important;
+  width: auto !important;
   max-height: none !important;
   max-width: none !important;
-  height: auto !important;
-  width: 100% !important;
 }
 
 /* Header */
