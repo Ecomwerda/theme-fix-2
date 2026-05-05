@@ -3049,6 +3049,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   transform: translateY(0);
 }
 
+.product-quick-add .button {
+  border-radius: 0;
+}
+
 @media screen and (min-width: 700px) {
   .product-quick-add {
     width: 35rem;
