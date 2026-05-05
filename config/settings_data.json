@@ -246,7 +246,7 @@
           "links_zwLmqU": {
             "type": "links",
             "settings": {
-              "menu": "footer",
+              "menu": "right-menu",
               "show_menu_title": true
             }
           },
