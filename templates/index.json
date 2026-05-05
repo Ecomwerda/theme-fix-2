@@ -98,6 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
+            "image": "shopify://shop_images/7_bbf75b15-fd95-474b-9cd2-c44701b79912.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -225,6 +226,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_34_03.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -299,7 +301,8 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "title": "About Us",
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_40_46.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/contact-us",
             "link_text": "",
@@ -320,7 +323,8 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "title": "Join our team",
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_42_05.png",
+            "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/rejoignez-la-femme-sereine",
             "link_text": "",
@@ -341,6 +345,7 @@
         "image_GiUtXd": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_39_14_ca1ad9e8-70a6-400b-9c99-bb746bb2aa8c.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/about-us",
