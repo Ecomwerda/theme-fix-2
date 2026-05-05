@@ -97,10 +97,10 @@
         "collection_NFrXEB": {
           "type": "collection",
           "settings": {
-            "collection": "midi-dresses",
+            "collection": "blouses-shirts",
             "subheading": "",
-            "title": "Midi Dresses",
-            "url": "shopify://collections/midi-dresses",
+            "title": "Blouses & Shirts",
+            "url": "shopify://collections/blouses-shirts",
             "heading_tag": "h3",
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
@@ -177,7 +177,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "best-selling-dresses",
+        "collection": "dresses",
         "products": [],
         "full_width": true,
         "stack_products": false,
