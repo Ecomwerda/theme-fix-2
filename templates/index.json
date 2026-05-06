@@ -511,7 +511,6 @@
     }
   },
   "order": [
-    "usp_icons",
     "slideshow_TJ8KBa",
     "rich_text_EhEykJ",
     "collection-list",
@@ -520,6 +519,7 @@
     "testimonials_warm",
     "media-grid",
     "faq",
+    "usp_icons",
     "17777357234da3b579"
   ]
 }
