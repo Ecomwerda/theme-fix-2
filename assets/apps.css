@@ -483,3 +483,8 @@
     font-size: 7.5rem;
   }
 }
+
+
+price-list.price-list {
+    font-weight: bold;
+}
