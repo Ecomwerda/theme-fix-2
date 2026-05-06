@@ -240,6 +240,7 @@
         "testimonial_1": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/fa264cf8-ef07-4d0f-a8a1-d7406f3a0f0a.png",
             "stars": 5,
             "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
             "author": "Linda M."
@@ -248,6 +249,7 @@
         "testimonial_2": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/8e65b85b-3068-4de5-beba-e583f9c16afe.png",
             "stars": 5,
             "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
             "author": "Barbara S."
@@ -256,6 +258,7 @@
         "testimonial_3": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/4760658c-78d5-4c3a-ab52-9fbea46b7d4e.png",
             "stars": 5,
             "quote": "Beautiful quality for the price. I get compliments every time I wear it.",
             "author": "Carol T."
@@ -264,6 +267,7 @@
         "testimonial_4": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/cb6df81e-fac2-4e0a-828f-59458621d85d.png",
             "stars": 5,
             "quote": "Great fit and lovely material. Took a few days longer than expected but worth the wait.",
             "author": "Diane W."
@@ -272,6 +276,7 @@
         "testimonial_5": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/d8548d3c-c555-49eb-8716-e834c2577222.png",
             "stars": 5,
             "quote": "I bought two pieces and love them both. Finally a brand that gets it right.",
             "author": "Susan H."
