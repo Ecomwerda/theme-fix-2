@@ -316,13 +316,13 @@
         "button_text": "Contact us",
         "button_url": "shopify://pages/contact",
         "text_position": "center",
-        "background": "#000000",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "#ffffff",
+        "text_color": "#000000",
+        "heading_color": "#000000",
         "heading_gradient": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
         "accordion_background": "#1a1a1a",
         "accordion_text_color": "#ffffff"
       }
