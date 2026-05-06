@@ -309,7 +309,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fae302ea-45d7-42cb-ae46-5bb7dd460b7a.png",
+            "image": "shopify://shop_images/acf2fac6-808f-456d-ba5d-cb752583ae59.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/contact-us",
@@ -328,32 +328,10 @@
             "overlay_opacity": 0
           }
         },
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_42_05.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify://pages/rejoignez-la-femme-sereine",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "image_GiUtXd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_39_14_ca1ad9e8-70a6-400b-9c99-bb746bb2aa8c.png",
+            "image": "shopify://shop_images/0a8346d7-fdfd-4597-8d55-0f2d593902df.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/about-us",
@@ -375,7 +353,6 @@
       },
       "block_order": [
         "item-3",
-        "item-1",
         "image_GiUtXd"
       ],
       "settings": {
