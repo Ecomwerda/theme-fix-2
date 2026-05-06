@@ -213,7 +213,7 @@
           "payment"
         ],
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "full_width": true,
           "heading_tag": "h4",
           "text_alignment": "center",
