@@ -24,7 +24,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify://collections/bestsellers",
+            "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -72,7 +72,7 @@
         "richtext_QfCC7x": {
           "type": "richtext",
           "settings": {
-            "content": "<p>What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.</p><p>A place where women feel comfortable, confident, and completely themselves. That was always our vision. And it still is.</p><p>And now… because of you, we're growing. We're moving Claire & Riley to a bigger home — a new space, with the same heart we poured into every single piece.</p><p>To celebrate this special moment, we are offering exclusive moving sale savings of <strong>up to 70% off</strong> our most-loved styles. A chance to take a piece of our story with you, before we step into what's next.</p><p>We produce every collection in limited quantities — once they're gone, they won't return.</p><p>Thank you for being part of this journey. It means everything to us. 🤍</p><p><em>With love,<br/>Claire & Riley, New York City</em></p>"
+            "content": "<p>What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.</p><p>A place where women feel comfortable, confident, and completely themselves. That was always our vision. And it still is.</p><p>And now… because of you, we're growing. I'm moving Claire & Riley to a bigger home — a new space, with the same heart I pour into every single piece.</p><p>To celebrate this special moment, I'm offering exclusive moving sale savings of <strong>up to 70% off</strong> our most-loved styles. A chance to take a piece of our story with you, before I step into what's next.</p><p>I produce every collection in limited quantities — once they're gone, they won't return.</p><p>Thank you for being part of this journey. It means everything to me. 🤍</p><p><em>With love,<br/>Claire — Claire & Riley, New York City</em></p>"
           }
         }
       },
@@ -98,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
-            "image": "shopify://shop_images/31711288-ca6b-4a0b-b466-0b6787ee6b2f.png",
+            "image": "shopify://shop_images/7_bbf75b15-fd95-474b-9cd2-c44701b79912.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -113,7 +113,6 @@
           "type": "collection",
           "settings": {
             "collection": "pants",
-            "image": "shopify://shop_images/5ac5176c-a821-41c5-92cd-7dfa01c7909f.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -128,7 +127,6 @@
           "type": "collection",
           "settings": {
             "collection": "tops-t-shirts",
-            "image": "shopify://shop_images/644c1062-0602-4d24-9192-01bc9f4ae672.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -143,7 +141,6 @@
           "type": "collection",
           "settings": {
             "collection": "sets",
-            "image": "shopify://shop_images/e5e82dfc-8335-4d5d-9366-9ebd8051a6ed.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -192,7 +189,7 @@
         "subheading": "Once they're gone, they won't return",
         "title": "Our Most-Loved Styles",
         "content": "",
-        "link_url": "shopify://collections",
+        "link_url": "shopify://collections/best-selling-dresses",
         "link_text": "Shop all styles",
         "background": "#ffffff",
         "background_gradient": "",
@@ -243,7 +240,6 @@
         "testimonial_1": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/d8548d3c-c555-49eb-8716-e834c2577222.png",
             "stars": 5,
             "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
             "author": "Linda M."
@@ -252,7 +248,6 @@
         "testimonial_2": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/8e65b85b-3068-4de5-beba-e583f9c16afe.png",
             "stars": 5,
             "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
             "author": "Barbara S."
@@ -261,7 +256,6 @@
         "testimonial_3": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/4760658c-78d5-4c3a-ab52-9fbea46b7d4e.png",
             "stars": 5,
             "quote": "Beautiful quality for the price. I get compliments every time I wear it.",
             "author": "Carol T."
@@ -270,7 +264,6 @@
         "testimonial_4": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/cb6df81e-fac2-4e0a-828f-59458621d85d.png",
             "stars": 5,
             "quote": "Great fit and lovely material. Took a few days longer than expected but worth the wait.",
             "author": "Diane W."
@@ -279,7 +272,6 @@
         "testimonial_5": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/fa264cf8-ef07-4d0f-a8a1-d7406f3a0f0a.png",
             "stars": 5,
             "quote": "I bought two pieces and love them both. Finally a brand that gets it right.",
             "author": "Susan H."
@@ -312,7 +304,7 @@
             "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_40_46.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify://pages/about-us",
+            "link_url": "shopify://pages/contact-us",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -334,7 +326,7 @@
             "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_42_05.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify://pages/join-our-team",
+            "link_url": "shopify://pages/rejoignez-la-femme-sereine",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -356,7 +348,7 @@
             "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_39_14_ca1ad9e8-70a6-400b-9c99-bb746bb2aa8c.png",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify://pages/contact-us",
+            "link_url": "shopify://pages/about-us",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -450,17 +442,17 @@
         "support_hours": "Mon – Fri  09:00 – 17:00    Sat – Sun  10:00 – 17:00",
         "answer_time": "We respond within 24 hours",
         "button_text": "Contact us",
-        "button_url": "shopify://pages/contact-us",
+        "button_url": "shopify://pages/contact",
         "text_position": "center",
-        "background": "#000000",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "#ffffff",
+        "text_color": "#1a1a1a",
+        "heading_color": "#1a1a1a",
         "heading_gradient": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "accordion_background": "#1a1a1a",
-        "accordion_text_color": "#ffffff"
+        "button_background": "#1a1a1a",
+        "button_text_color": "#ffffff",
+        "accordion_background": "#f5f5f5",
+        "accordion_text_color": "#1a1a1a"
       }
     },
     "17777357234da3b579": {
