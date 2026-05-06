@@ -72,7 +72,7 @@
         "payment"
       ],
       "settings": {
-        "show_section": false,
+        "show_section": true,
         "full_width": true,
         "heading_tag": "h5",
         "text_alignment": "center",
