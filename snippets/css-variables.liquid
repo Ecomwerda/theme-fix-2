@@ -179,8 +179,8 @@ note that this may have impact on different places.
     --on-sale-badge-text: {% if product_on_sale_accent_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
     --sold-out-badge-background: {{ settings.product_sold_out_badge_background.rgb }};
     --sold-out-badge-text: {% if product_sold_out_badge_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
-    --primary-badge-background: {{ settings.product_primary_badge_background.rgb }};
-    --primary-badge-text: {% if product_primary_badge_brightness < 150 %}255 255 255{% else %}0 0 0{% endif %};
+    --primary-badge-background: 0 0 0 / 0;
+    --primary-badge-text: 204 0 0;
     --star-color: {{ settings.product_rating_color.rgb }};
     --product-card-background: {{ settings.product_card_background.rgb }};
     --product-card-text: {{ settings.product_card_text_color.rgb }};
