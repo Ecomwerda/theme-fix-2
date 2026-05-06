@@ -1405,10 +1405,14 @@ scroll-carousel {
 .badge--primary {
   --badge-background: transparent;
   --badge-color: #cc0000;
+}
+
+.badge.badge--primary {
   background: transparent !important;
   color: #cc0000 !important;
   border: none !important;
   box-shadow: none !important;
+  padding: 0 !important;
 }
 
 .badge--sold-out {
