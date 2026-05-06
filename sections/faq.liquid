@@ -17,7 +17,7 @@
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion {
-    background: #111111;
+    background: #ffffff;
     border: none;
     border-radius: 0 !important;
     box-shadow: none;
@@ -25,15 +25,15 @@
     transition: background 0.2s ease;
     border-block-start-width: 0 !important;
     border-block-end-width: 0 !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07) !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion:first-child {
-    border-top: 1px solid rgba(255, 255, 255, 0.07) !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion[open] {
-    background: #161616;
+    background: #f5f5f5;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion__toggle {
@@ -45,13 +45,13 @@
     font-family: var(--font-heading-family);
     font-size: clamp(14px, 1.2vw, 17px);
     font-weight: 600;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.01em;
     line-height: 1.4;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion[open] .accordion__toggle {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   /* Square arrow — replaces circle chevron */
@@ -61,24 +61,24 @@
     min-width: 30px;
     border-radius: 0;
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background 0.2s ease, border-color 0.2s ease;
-    color: #ffffff;
+    color: #000000;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion[open] .circle-chevron {
-    background: #ffffff;
-    border-color: #ffffff;
-    color: #000000;
+    background: #000000;
+    border-color: #000000;
+    color: #ffffff;
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion__content {
     padding: 20px 28px 28px;
     margin: 0;
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(0, 0, 0, 0.65);
     font-size: 15px;
     line-height: 1.8;
     transform: none;
@@ -89,7 +89,7 @@
   }
 
   #shopify-section-{{ section.id }} .accordion-box .accordion__content a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: underline;
     text-underline-offset: 3px;
   }
