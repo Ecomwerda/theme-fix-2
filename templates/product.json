@@ -242,6 +242,7 @@
         "background_color": "#ffffff",
         "heading_color": "#000000",
         "text_color": "#1a1a1a",
+        "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_53_36.png",
         "image_position": "left",
         "image_width": 50,
         "min_height": 600,
