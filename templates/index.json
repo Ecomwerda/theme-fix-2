@@ -9,6 +9,72 @@
  */
 {
   "sections": {
+    "usp_icons": {
+      "type": "static-text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "Free Premium Shipping",
+            "content": "<p>Always free shipping with Track & Trace via USPS</p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "Customer Service",
+            "content": "<p>We respond within 24 hours</p>"
+          }
+        },
+        "returns": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "30-Day Returns",
+            "content": "<p>Easy hassle-free returns</p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "#ffffff",
+            "icon_color": "#000000",
+            "title": "Secure Payment",
+            "content": "<p>Credit card, Apple Pay, Google Pay & Shop Pay</p>"
+          }
+        }
+      },
+      "block_order": ["free-shipping", "customer-support", "returns", "payment"],
+      "settings": {
+        "full_width": true,
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "slideshow_TJ8KBa": {
       "type": "slideshow",
       "blocks": {
@@ -24,7 +90,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify://collections",
+            "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -98,7 +164,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
-            "image": "shopify://shop_images/31711288-ca6b-4a0b-b466-0b6787ee6b2f.png",
+            "image": "shopify://shop_images/7_bbf75b15-fd95-474b-9cd2-c44701b79912.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -113,7 +179,6 @@
           "type": "collection",
           "settings": {
             "collection": "pants",
-            "image": "shopify://shop_images/0df2d931-b1cd-4d69-af66-631d7c796fbd.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -128,7 +193,6 @@
           "type": "collection",
           "settings": {
             "collection": "tops-t-shirts",
-            "image": "shopify://shop_images/644c1062-0602-4d24-9192-01bc9f4ae672.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -143,7 +207,6 @@
           "type": "collection",
           "settings": {
             "collection": "sets",
-            "image": "shopify://shop_images/e5e82dfc-8335-4d5d-9366-9ebd8051a6ed.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -192,7 +255,7 @@
         "subheading": "Once they're gone, they won't return",
         "title": "Our Most-Loved Styles",
         "content": "",
-        "link_url": "shopify://collections/bestsellers",
+        "link_url": "shopify://collections/best-selling-dresses",
         "link_text": "Shop all styles",
         "background": "#ffffff",
         "background_gradient": "",
@@ -243,7 +306,6 @@
         "testimonial_1": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/fa264cf8-ef07-4d0f-a8a1-d7406f3a0f0a.png",
             "stars": 5,
             "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
             "author": "Linda M."
@@ -252,7 +314,6 @@
         "testimonial_2": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/8e65b85b-3068-4de5-beba-e583f9c16afe.png",
             "stars": 5,
             "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
             "author": "Barbara S."
@@ -261,7 +322,6 @@
         "testimonial_3": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/4760658c-78d5-4c3a-ab52-9fbea46b7d4e.png",
             "stars": 5,
             "quote": "Beautiful quality for the price. I get compliments every time I wear it.",
             "author": "Carol T."
@@ -270,7 +330,6 @@
         "testimonial_4": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/cb6df81e-fac2-4e0a-828f-59458621d85d.png",
             "stars": 5,
             "quote": "Great fit and lovely material. Took a few days longer than expected but worth the wait.",
             "author": "Diane W."
@@ -279,7 +338,6 @@
         "testimonial_5": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/d8548d3c-c555-49eb-8716-e834c2577222.png",
             "stars": 5,
             "quote": "I bought two pieces and love them both. Finally a brand that gets it right.",
             "author": "Susan H."
@@ -309,7 +367,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/acf2fac6-808f-456d-ba5d-cb752583ae59.png",
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_40_46.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/contact-us",
@@ -328,10 +386,32 @@
             "overlay_opacity": 0
           }
         },
+        "item-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_42_05.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "shopify://pages/rejoignez-la-femme-sereine",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "image_GiUtXd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/0a8346d7-fdfd-4597-8d55-0f2d593902df.png",
+            "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_39_14_ca1ad9e8-70a6-400b-9c99-bb746bb2aa8c.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify://pages/about-us",
@@ -353,6 +433,7 @@
       },
       "block_order": [
         "item-3",
+        "item-1",
         "image_GiUtXd"
       ],
       "settings": {
@@ -427,15 +508,15 @@
         "support_hours": "Mon – Fri  09:00 – 17:00    Sat – Sun  10:00 – 17:00",
         "answer_time": "We respond within 24 hours",
         "button_text": "Contact us",
-        "button_url": "shopify://pages/contact-us",
+        "button_url": "shopify://pages/contact",
         "text_position": "center",
-        "background": "#000000",
+        "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#ffffff",
-        "heading_color": "#ffffff",
+        "text_color": "#000000",
+        "heading_color": "#000000",
         "heading_gradient": "",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
         "accordion_background": "#ffffff",
         "accordion_text_color": "#000000"
       }
@@ -446,6 +527,7 @@
     }
   },
   "order": [
+    "usp_icons",
     "slideshow_TJ8KBa",
     "rich_text_EhEykJ",
     "collection-list",
