@@ -1403,12 +1403,8 @@ scroll-carousel {
 }
 
 .badge--primary {
-  --badge-background: transparent;
-  --badge-color: #cc0000;
-  background: transparent !important;
-  color: #cc0000 !important;
-  border: none !important;
-  padding-left: 0 !important;
+  --badge-background: var(--primary-badge-background);
+  --badge-color: var(--primary-badge-text);
 }
 
 .badge--sold-out {
