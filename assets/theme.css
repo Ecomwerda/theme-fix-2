@@ -1403,8 +1403,12 @@ scroll-carousel {
 }
 
 .badge--primary {
-  --badge-background: var(--primary-badge-background);
-  --badge-color: var(--primary-badge-text);
+  --badge-background: transparent;
+  --badge-color: #cc0000;
+  background: transparent !important;
+  color: #cc0000 !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .badge--sold-out {
@@ -8965,7 +8969,7 @@ split-lines {
 }
 
 .text-on-sale {
-  color: rgb(var(--on-sale-text));
+  color: #2a8c4a;
 }
 
 .text-stroke {
