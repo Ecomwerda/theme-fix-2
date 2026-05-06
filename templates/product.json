@@ -327,6 +327,80 @@
         "accordion_text_color": "#ffffff"
       }
     },
+    "text_with_icons_NPrYTF": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_xBkk74": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free Premium Shipping",
+            "content": "<p>At Claire & Riley, you always enjoy free shipping on all your orders.</p>"
+          }
+        },
+        "item_4Ax7yH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer Service",
+            "content": "<p>Every question deserves an answer — we respond within 24 hours.</p>"
+          }
+        },
+        "item_MdBJNh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "30-Day Returns",
+            "content": "<p>Shop with confidence. You have 30 days to return or exchange your item.</p>"
+          }
+        },
+        "item_FxjpcQ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 32,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure Payment",
+            "content": "<p>You always pay with peace of mind thanks to our trusted payment partners.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_xBkk74",
+        "item_4Ax7yH",
+        "item_MdBJNh",
+        "item_FxjpcQ"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1738002897803478fa": {
       "type": "apps",
       "blocks": {
@@ -363,6 +437,7 @@
     "testimonials_warm_a3AB9C",
     "image_with_story_text_main",
     "faq_TaRiGA",
+    "text_with_icons_NPrYTF",
     "1738002897803478fa"
   ]
 }
