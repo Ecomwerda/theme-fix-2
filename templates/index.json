@@ -98,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "dresses",
-            "image": "shopify://shop_images/7_bbf75b15-fd95-474b-9cd2-c44701b79912.png",
+            "image": "shopify://shop_images/97faea72-49f7-4fa8-b0e2-4b675e66960b.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -113,6 +113,7 @@
           "type": "collection",
           "settings": {
             "collection": "pants",
+            "image": "shopify://shop_images/554e98e2-8b7a-460a-ab35-6177881c34bc.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -127,6 +128,7 @@
           "type": "collection",
           "settings": {
             "collection": "tops-t-shirts",
+            "image": "shopify://shop_images/644c1062-0602-4d24-9192-01bc9f4ae672.png",
             "subheading": "",
             "title": "",
             "url": "",
@@ -141,6 +143,7 @@
           "type": "collection",
           "settings": {
             "collection": "sets",
+            "image": "shopify://shop_images/e5e82dfc-8335-4d5d-9366-9ebd8051a6ed.png",
             "subheading": "",
             "title": "",
             "url": "",
