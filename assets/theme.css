@@ -9872,3 +9872,10 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+
+.upcart-internal-component-product-tile__price {
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
