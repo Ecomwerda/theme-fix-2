@@ -143,7 +143,7 @@
       "type": "product-upsell",
       "settings": {
         "heading": "Combine & Save Up to 20%",
-        "heading_alignment": "left",
+        "heading_alignment": "center",
         "products_to_show": 10,
         "background_color": "#f5f5f5",
         "border_color": "#e0e0e0",
@@ -158,7 +158,7 @@
         "testimonial_gzdGfH": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/d8548d3c-c555-49eb-8716-e834c2577222.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_2_2026_08_17_40_PM.png",
             "stars": 5,
             "quote": "Absolutely love my dress. Fits perfectly and the fabric feels so soft. Will be ordering again.",
             "author": "Linda M."
@@ -167,7 +167,7 @@
         "testimonial_JNWbxx": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/8e65b85b-3068-4de5-beba-e583f9c16afe.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_2_2026_08_17_46_PM.png",
             "stars": 5,
             "quote": "Arrived quickly and looked even better in person. So happy with my purchase.",
             "author": "Barbara S."
@@ -176,7 +176,7 @@
         "testimonial_VJjHPz": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/4760658c-78d5-4c3a-ab52-9fbea46b7d4e.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_2_2026_08_17_52_PM.png",
             "stars": 5,
             "quote": "Beautiful quality for the price. I get compliments every time I wear it.",
             "author": "Carol T."
@@ -185,7 +185,7 @@
         "testimonial_GaHEBQ": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/cb6df81e-fac2-4e0a-828f-59458621d85d.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_2_2026_08_17_33_PM.png",
             "stars": 5,
             "quote": "Great fit and lovely material. Took a few days longer than expected but worth the wait.",
             "author": "Diane W."
@@ -194,7 +194,7 @@
         "testimonial_4gXdze": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/fa264cf8-ef07-4d0f-a8a1-d7406f3a0f0a.png",
+            "image": "shopify://shop_images/ChatGPT_Image_May_2_2026_08_17_31_PM.png",
             "stars": 5,
             "quote": "I bought two pieces and love them both. Finally a brand that gets it right.",
             "author": "Susan H."
@@ -230,7 +230,7 @@
         "para_2": {
           "type": "paragraph",
           "settings": {
-            "text": "What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.\n\nAnd now… because of you, we're growing. We are  moving Claire & Riley to a bigger home — a new space, with the same heart we poured into every single piece.\n\nEvery piece in this sale is limited. Once it's gone, it won't return.\n\n— Claire & Riley"
+            "text": "What Riley and I started as a shared dream — two sisters from New York City — became something we could have never imagined.\n\nAnd now… because of you, we're growing. I'm moving Claire & Riley to a bigger home — a new space, with the same heart I pour into every single piece.\n\nEvery piece in this sale is limited. Once it's gone, it won't return.\n\n— Claire"
           }
         }
       },
@@ -242,7 +242,7 @@
         "background_color": "#ffffff",
         "heading_color": "#000000",
         "text_color": "#1a1a1a",
-        "image": "shopify://shop_images/ChatGPT_Image_5_mei_2026_22_53_36.png",
+        "image": "shopify://shop_images/ChatGPT_Image_May_5_2026_09_59_07_PM.png",
         "image_position": "left",
         "image_width": 50,
         "min_height": 600,
@@ -314,7 +314,7 @@
         "support_hours": "Mon – Fri  09:00 – 17:00    Sat – Sun  10:00 – 17:00",
         "answer_time": "We respond within 24 hours",
         "button_text": "Contact us",
-        "button_url": "shopify://pages/contact-us",
+        "button_url": "shopify://pages/contact",
         "text_position": "center",
         "background": "#000000",
         "background_gradient": "",
